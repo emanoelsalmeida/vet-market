@@ -324,7 +324,7 @@ header button.color {
 
 .p9-box{
     display: grid;
-    grid-template-columns: 40% 40%;
+    grid-template-columns: 50% 30%;
     justify-content:center;
     padding: 50px 0;
 
@@ -333,7 +333,7 @@ header button.color {
     background-color: #dc4437;
 }
 .p9-item img{
-    width: 70vh;
+    width: 30vh;
 }
 .p9-item h1{
     color:white;
@@ -501,17 +501,17 @@ footer p a{
         text-align:left;
 
     }
-    .p2 p,.p3 p, .p4 p,.p5 p{
+    .p2 p,.p3 p, .p4 p,.p5 p, .p9 p{
        text-align: left;
     }
 
-    .p1-item img,.p2-item img, .p3-item img,.p4-item img, .p5-item img{
+    .p1-item img,.p2-item img, .p3-item img,.p4-item img, .p5-item img, .p9 img{
         display:block;
         margin: 0 auto;
         padding: 30px 0;
-        width: 50vw;
+        width: 50%;
     }
-    .p2-item p{
+    .p2-item p{, 
         margin: 0px;
         padding-bottom: 20px;
         width: 80%;
@@ -531,4 +531,11 @@ footer p a{
         height: 80px;
         width: 100%;
     }
+    .p9 h1{
+        font-size: 1.5em;
+        width: 80%;
+        display:block;
+        margin: 0 auto;
+    }
+    
 }
